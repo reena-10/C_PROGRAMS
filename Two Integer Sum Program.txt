@@ -1,9 +1,13 @@
-#include <stdio.h>
+//C program to add two numbers.
+
+//Header file
+#include <stdio.h> 
 int main(){
+    //Variable declaration
     int number1 ,number2, sum;
-    printf("Enter 1st integers : ");
+    printf("Enter two integers : ");
     scanf("%d %d",&number1,&number2);
-    sum = number1+number2;
-    printf("%d+%d=%d",number1 ,number2,sum);
+    sum = number1+number2; // add two integer 
+    printf("%d+%d=%d",number1 ,number2,sum); // print sum of two integer
     return 0;
 }
