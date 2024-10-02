@@ -1,9 +1,10 @@
-# include <stdio.h>
-int main()
+# include <stdio.h>   //Header file
+int main()  
 {
+   //Variable declaration
     int number;
     printf("Enter an integer : ");
-    scanf("%d",&number);
-    printf("Enter : %d",number);
+    scanf("%d",&number);  // take input from user
+    printf("Enter : %d",number);  // display input
     return 0;
 }
