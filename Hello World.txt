@@ -1,8 +1,12 @@
 // Basic Program of C language
 // C Hello World Program
 
-#include<stdio.h>
-int main(){
- printf("Hello, World!");
-return 0;
+#include <stdio.h>
+
+int main() {
+    // This line prints the message "Hello, World!" to the console.
+    printf("Hello, World!");
+
+    // This line indicates that the program has executed successfully and returns 0 to the operating system.
+    return 0;
 }
